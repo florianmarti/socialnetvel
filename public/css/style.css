@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #89a1ba;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #201010;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+/* Estilos del contenido */
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #555;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    flex-wrap: wrap;
+}
+
+.footer-container p {
+    margin: 0;
+    color: #6c757d;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #2a2323;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #3300ff;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
